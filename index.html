@@ -3,127 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Profile - SIMPCRAFT</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <meta name="description" content="00 Controll Team - A community playing on Simpcraft.com. Join us on Discord!">
+    <title>Team Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        /* Base styles */
         body {
+            background-color: #f0f0f0;
+            font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            font-family: 'Roboto', sans-serif;
-            background: linear-gradient(to right, #4b6cb7, #182848);
-            color: #fff;
-            overflow-x: hidden;
         }
-        h1, h3 {
-            margin: 0;
-            text-align: center;
-        }
-
         h1 {
-            font-size: 4rem;
-            color: #fff;
-            font-weight: 600;
-            letter-spacing: 2px;
-            margin-top: 3rem;
-            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
-        }
-
-        h3 {
-            font-size: 2.5rem;
-            margin-top: 1rem;
-            color: #ffdf00;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 4rem auto;
+            color: #0068bd;
             text-align: center;
-            padding: 0 2rem;
+            font-size: 4.5rem;
+            line-height: 1;
+            margin-top: 20px;
         }
-
+        h3 {
+            color: #333;
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
         .discord-link {
-            color: #ffdf00;
-            text-decoration: none;
+            color: #00b0ff;
             font-size: 1.5rem;
-            background-color: #444;
-            padding: 10px 20px;
-            border-radius: 25px;
-            transition: all 0.3s ease;
+            text-decoration: none;
+            font-weight: bold;
         }
-
         .discord-link:hover {
-            background-color: #ffdf00;
-            color: #000;
+            text-decoration: underline;
         }
-
-        .discord-link:active {
-            transform: scale(0.98);
-        }
-
-        dl {
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-            margin-top: 3rem;
-            font-size: 1.8rem;
-        }
-
-        dt {
-            font-weight: 600;
-            color: #ffdf00;
-        }
-
-        dd {
-            font-weight: 400;
-            color: #e0e0e0;
-        }
-
-        iframe {
+        .content {
+            background-color: #000000c0;
+            color: #f7f7f7;
+            padding: 30px;
             border-radius: 10px;
-            border: none;
-            max-width: 100%;
-            width: 100%;
-            height: 450px;
+            margin-bottom: 20px;
         }
-
-        /* Responsive styling */
-        @media screen and (max-width: 768px) {
+        dl {
+            color: #333;
+            font-size: 1.5rem;
+            margin-top: 20px;
+        }
+        dt {
+            font-weight: bold;
+        }
+        iframe {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
             h1 {
                 font-size: 3rem;
             }
             h3 {
-                font-size: 1.8rem;
-            }
-            .discord-link {
-                font-size: 1.2rem;
+                font-size: 1.5rem;
             }
             dl {
-                font-size: 1.5rem;
+                font-size: 1.2rem;
             }
         }
     </style>
 </head>
 <body>
-
-<div class="container">
-    <h1>00 Controll Team</h1>
-    <h3>Nice to meet you!</h3>
-
-    <p><a href="https://discord.gg/T64k8dvF9f" class="discord-link">Join our Discord</a></p>
-
-    <dl>
-        <dt>What kind of team are we?</dt>
-        <dd>We usually play <a href="https://simpcraft.com" style="color: #ffdf00; text-decoration: none;">Simpcraft</a>.</dd>
-
-        <dt>What is SIMPCRAFT?</dt>
-        <dd>
-            <iframe src="https://www.youtube.com/embed/cOqAqbDDxaE?si=71Lue877RRJ9c2QH" 
-                    title="SIMPCRAFT INFO" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-            </iframe>
-        </dd>
-    </dl>
-</div>
-
+    <div class="container">
+        <h1>00 Controll Team</h1>
+        <h3>Nice to meet you!</h3>
+        
+        <div class="content">
+            <p>Join our <a href="https://discord.gg/T64k8dvF9f" class="discord-link" target="_blank">Discord</a> community!</p>
+        </div>
+        
+        <dl>
+            <dt>What kind of team are we?</dt>
+            <dd>We usually play on <strong>Simpcraft.com</strong></dd>
+            <dt>What is SIMPCRAFT?</dt>
+            <dd>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cOqAqbDDxaE?si=71Lue877RRJ9c2QH"
+                        title="SIMPCRAFT INFO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+                        picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </dd>
+        </dl>
+    </div>
 </body>
 </html>
