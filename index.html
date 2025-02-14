@@ -2,65 +2,168 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>teamprofile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>00 Control Team</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        body {
+            background: linear-gradient(to bottom, #141e30, #243b55);
+            color: #e0e0e0;
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-size: 3.5rem;
+            text-align: center;
+            color: #00d4ff;
+            margin: 2rem 0 1rem;
+        }
+        h3 {
+            text-align: center;
+            font-size: 1.5rem;
+            color: #aad8ff;
+            margin-bottom: 2rem;
+        }
+        .button-container {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        a.btn {
+            display: inline-block;
+            color: #fff;
+            background-color: #0077b6;
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+            border-radius: 5px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        a.btn:hover {
+            background-color: #005f8b;
+        }
+        section {
+            margin: 2rem auto;
+            max-width: 850px;
+        }
+        dl {
+            background: rgba(20, 30, 48, 0.9);
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+        }
+        dt {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: #00d4ff;
+            margin-top: 1rem;
+        }
+        dd {
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+        dd a {
+            color: #00d4ff;
+            text-decoration: underline;
+        }
+        dd a:hover {
+            text-decoration: none;
+        }
+        .news {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+            margin-top: 2rem;
+        }
+        .faq {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+            margin-top: 2rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background: #0b2d42;
+            color: white;
+            border-radius: 10px;
+            margin-top: 2.5rem;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #aad8ff;
+            text-decoration: underline;
+        }
+        footer a:hover {
+            color: #00d4ff;
+        }
+    </style>
+    <!-- Security Headers Example -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="Strict-Transport-Security" content="max-age=63072000; includeSubDomains; preload">
 </head>
 <body>
-<h1>00 controll team</h1>
-<h3>nice to meet you</h3>
-<div>
-    <p>
-        Our<a href="https://discord.gg/T64k8dvF9f">discord</a>
-    </p>
-</div>
-<dl>
-    <dt>What kind of team!</dt>
-    <dd>we usually play simpcraft.com</dd>
-    <dt>What is SIMPCRAFT?</dt>
-    <dd>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/cOqAqbDDxaE?si=71Lue877RRJ9c2QH"
-                title="SIMPCRAFT INFO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-        picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-        </iframe>
-    </dd>
-</dl>
+    <header>
+        <h1>00 Control Team</h1>
+        <h3>Welcome to our official website!</h3>
+    </header>
+
+    <div class="button-container">
+        <a class="btn" target="_blank" rel="noopener noreferrer" href="https://discord.gg/T64k8dvF9f">
+            Join our Discord Server
+        </a>
+    </div>
+
+    <main>
+        <section>
+            <h2>About 00 Control Team</h2>
+            <p>
+                The 00 Control Team is a community of dedicated players who enjoy collaborating and competing in the exciting world of <a href="https://ja.namemc.com/server/simpcraft.com" target="_blank">Simpcraft</a>. We specialize in strategy, teamwork, and having fun together while achieving our goals.
+            </p>
+        </section>
+
+        <section class="news">
+            <h2>Latest News & Updates</h2>
+            <ul>
+                <li>📅 <strong>Event:</strong> nothing:D</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Team Members</h2>
+            <ul>
+                <li><strong>Hideyuki1019(🇯🇵)</strong> - normal member learning python</li>
+                <li><strong>Hello_jr(🇯🇵)</strong> - Strategy Specialist</li>
+                <li><strong>PizzaV(🇧🇪)</strong> - Strategy Specialist</li>
+                <li><strong>more...</strong></li>
+            </ul>
+        </section>
+
+        <section class="faq">
+            <h2>FAQ</h2>
+            <dl>
+                <dt>What is Simpcraft?</dt>
+                <dd>Simpcraft is a multiplayer server where we enjoy various mini-games and challenges. Learn more <a href="https://ja.namemc.com/server/simpcraft.com" target="_blank">here</a>.</dd>
+                <dt>How can I join the team?</dt>
+                <dd>You can apply by contacting us through our <a href="https://discord.gg/T64k8dvF9f" target="_blank">Discord server</a>.</dd>
+            </dl>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Created by 00 Control Team | <a href="https://discord.gg/T64k8dvF9f" target="_blank">Discord</a>
+        </p>
+    </footer>
+
 </body>
 </html>
-<style>
-    body {
-        background-color: #f0f0f0;
-    }
-    h1 {
-        color: #0068bd;
-        text-align: center;
-        font-size: 4.5rem;
-        line-height: 1;
-    }
-    h3 {
-        color: rgb(0, 0, 0);
-        text-align: center;
-        font-size: 2rem;
-    }
-    div {
-        color: #f7f7f7;
-        text-align: center;
-        font-size: 3rem;
-        line-height: 1;
-        background-color: #000000c0;
-    }
-    dl {
-        color: #000000;
-        font-size: 2rem;
-    }
-
-    .container {
-        width: 90%;
-        text-align: center;
-    }
-
-    .first-sentence {
-        font-weight: bold;
-    }
-</style>
 
 
